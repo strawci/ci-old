@@ -1,0 +1,7 @@
+# Database types: mongodb
+type: "mongodb"
+address: "localhost"
+database: "strawci"
+port: 27017
+username: ""
+password: ""

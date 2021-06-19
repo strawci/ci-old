@@ -1,0 +1,8 @@
+# Build
+/target
+
+# Editor stuff
+/.vscode
+
+# Testing (Not unit test)
+/testing
