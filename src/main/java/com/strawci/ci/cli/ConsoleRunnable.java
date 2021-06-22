@@ -21,7 +21,7 @@ public class ConsoleRunnable implements Runnable {
             try {
                 line = reader.readLine();
                 if (this.console.isActive() && !line.isEmpty()) {
-                    this.console.parseInput(line.trim());
+                    this.console.runCommand(line.trim());
                 }
             } catch (IOException e) {
                 e.printStackTrace();

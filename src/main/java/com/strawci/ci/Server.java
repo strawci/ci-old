@@ -46,6 +46,10 @@ public class Server {
         return this.commandManager;
     }
 
+    public Console getConsole () {
+        return this.console;
+    }
+
     public void start () throws Exception {
         System.out.println("Preparing environment.");
         SystemUtils.createDirectories();

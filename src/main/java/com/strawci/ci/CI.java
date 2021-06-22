@@ -1,5 +1,6 @@
 package com.strawci.ci;
 
+import com.strawci.ci.cli.Console;
 import com.strawci.ci.commands.CommandManager;
 import com.strawci.ci.event.Event;
 import com.strawci.ci.plugins.PluginManager;
@@ -17,6 +18,10 @@ public class CI {
 
     public static Server getServer () {
         return CI.server;
+    }
+
+    public static Console getConsole () {
+        return getServer().getConsole();
     }
 
     public static PluginManager getPluginManager () {

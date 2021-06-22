@@ -62,5 +62,5 @@ public abstract class Command {
         return false;
     }
 
-    public abstract boolean handle (final String args[]);
+    public abstract boolean handle (final String args[], final ExecutionContext context);
 }
